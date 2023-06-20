@@ -1,0 +1,110 @@
+{
+	margin:0px;
+	padding: 0px; 
+}
+
+body{
+	background-size: 220vh;
+	background-image: linear-gradient(rgba(25,45,50,0.45),rgba(25,45,50,0.45)), url(c.jpg);
+}
+
+header{
+	height: 100vh;
+	background-size: 270%;
+	background-position: center;
+	min-height: 100px;
+}
+
+#main{
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+
+#main .logo {
+	float: left;
+}
+
+.logo {
+	background: url(a.png);
+	width: 100px;
+	height: 85px;
+	background-position: center;
+	background-size: 15vh;
+	margin-left: 70px;
+	margin-top: 0px;
+}
+
+#main nav ul{
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+#main nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 70px;
+}
+
+#main nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px; 
+	padding: 10px 23px;
+	transition: 0.4s all ease-out;
+}
+
+#main nav ul li a.active,
+#main nav ul li a:hover{
+	background: #fd4a47;
+	color: #fff;
+	transition: 0.4s all ease-out;
+}
+
+.text {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 54%;
+	left: 35%;
+}
+
+.text h1{
+	color: #fff;
+	font-size: 100px;
+}
+
+.text span{
+	width: 4px;
+	height: 20px;
+	background: #fd4a47;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 5%;
+	left: -15%;
+}
+
+.text p{
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.text .btn{
+	width: 150px;
+	height: 35px;
+	border: none;
+	background: #fd4a47;
+	color: #fff;
+	transition: 0.5s all ease-out;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.text .btn:hover{
+	background: transparent;
+	border: 1px solid #fd4a47;
+	transition: 0.5s all ease-out;
+}
